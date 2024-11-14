@@ -6,6 +6,4 @@ FROM my_pro_image
 
 WORKDIR /project2/
 
-RUN ["systemctl", "start mongod"]
-
-CMD ["node", "./dist/index.js"]
+CMD ["systemctl", "start mongod"]
