@@ -1,6 +1,6 @@
 # То же самое, что и в серверном Dockerfile.
 
-FROM 9edbd5eb608b
+FROM my_pro_image
 
 # Устанавливаем в качестве рабочей директории '/client/'.
 
