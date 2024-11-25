@@ -1,5 +1,7 @@
 import { MongoClient } from 'mongodb'
 
+//process.env.mongoURI = "mongodb://admin:my_password@23.177.184.17:8082";
+
 const mongoUri =  process.env.mongoURI || "mongodb://localhost:27017";
 
 export const client = new MongoClient(mongoUri);
